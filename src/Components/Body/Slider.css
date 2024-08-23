@@ -1,0 +1,112 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_1 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: #06060699;
+  border-radius: 50%;
+  color: #fff !important;
+  opacity: 1;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  backdrop-filter: blur(30px);
+  top: 50%;
+  transform: translateY(-25%);
+  z-index: 5;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 13px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  position: absolute;
+  left: 40%;
+}
+
+.swiper-button-disabled {
+  opacity: 0.3 !important;
+}
+
+div.free > div.Contents > div.swiper .swiper-button-prev,
+div.free > div.Contents > div.swiper .swiper-button-next {
+  transform: translateY(-15%);
+}
+
+div.comments > div.Contents > div.swiper {
+  height: 191px;
+}
+
+div.comments > div.Contents > div.swiper > div.slide {
+  height: 191px;
+}
+
+div.comments > div.Contents > div.top > div.slider_btn > div.swiperButtonPrev,
+div.comments > div.Contents > div.top > div.slider_btn > div.swiperButtonNext {
+  background: #06060699;
+  border-radius: 50%;
+  color: #fff !important;
+  opacity: 1;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  backdrop-filter: blur(30px);
+  top: 50%;
+  transform: translateY(-25%);
+  z-index: 5;
+  cursor: pointer;
+}
+
+div.comments
+  > div.Contents
+  > div.top
+  > div.slider_btn
+  > div.swiperButtonPrev::after,
+div.comments
+  > div.Contents
+  > div.top
+  > div.slider_btn
+  > div.swiperButtonNext::after {
+  font-family: swiper-icons;
+  font-size: 13px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  position: absolute;
+  left: 40%;
+}
+
+div.comments
+  > div.Contents
+  > div.top
+  > div.slider_btn
+  > div.swiperButtonPrev::after {
+  content: "prev";
+}
+
+div.comments
+  > div.Contents
+  > div.top
+  > div.slider_btn
+  > div.swiperButtonNext::after {
+  content: "next";
+}

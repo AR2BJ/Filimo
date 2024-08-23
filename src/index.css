@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "IRANSansThin";
+  src: url("./assets/font/eot/IRANSansXFN-Thin.eot");
+  src: local("IRANSansXFN-Thin"),
+    url("./assets/font/eot/IRANSansXFN-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/woff2/IRANSansXFN-Thin.woff2") format("woff2"),
+    url("./assets/font/woff/IRANSansXFN-Thin.woff") format("woff"),
+    url("./assets/font/ttf/IRANSansXFN-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSansreg";
+  src: url("./assets/font/eot/IRANSansXFN-Regular.eot");
+  src: local("IRANSansXFN-Regular"),
+    url("./assets/font/eot/IRANSansXFN-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/woff2/IRANSansXFN-Regular.woff2") format("woff2"),
+    url("./assets/font/woff/IRANSansXFN-Regular.woff") format("woff"),
+    url("./assets/font/ttf/IRANSansXFN-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSansmed";
+  src: url("./assets/font/eot/IRANSansXFN-Medium.eot");
+  src: local("IRANSansXFN-Medium"),
+    url("./assets/font/eot/IRANSansXFN-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/woff2/IRANSansXFN-Medium.woff2") format("woff2"),
+    url("./assets/font/woff/IRANSansXFN-Medium.woff") format("woff"),
+    url("./assets/font/ttf/IRANSansXFN-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANSansbol";
+  src: url("./assets/font/eot/IRANSansXFN-Bold.eot");
+  src: local("IRANSansXFN-Bold"),
+    url("./assets/font/eot/IRANSansXFN-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/font/woff2/IRANSansXFN-Bold.woff2") format("woff2"),
+    url("./assets/font/woff/IRANSansXFN-Bold.woff") format("woff"),
+    url("./assets/font/ttf/IRANSansXFN-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+  color: #fff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
